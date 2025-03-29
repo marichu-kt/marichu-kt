@@ -47,6 +47,7 @@ graph TD
   C --> D[generate.yml]
   A --> E[images/]
   E --> F[banner.png]
+  E --> I[btc_qr.png]
   A --> G[README.md]
   A --> H[LICENSE]
 ```
