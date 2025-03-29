@@ -53,9 +53,10 @@ graph TD
 
 ###
 
-| Thank you for your support! You can donate using the info below 🙏 |   |   |
-|--------------------------------------------------------------------|---|---|
-| 🪙 Currency | Address                  | QR Code                          |
+| 💚 Thank you for your support! You can donate using the info below 🙏 |
+|----------------------------------------------------------------------|
+
+| 🪙 Coin | Address                  | QR Code                          |
 |--------|---------------------------|----------------------------------|
 | ₿ BTC  | `bc1qxyz123abc456...`     | ![QR](/images/btc_qr.png)        |
 
