@@ -53,6 +53,14 @@ graph TD
 
 ###
 
+| Thank you for your support! You can donate using the info below 🙏 |
+|--------------------------------------------------------------------|
+| 🪙 Currency | Address                  | QR Code                          |
+|--------|---------------------------|----------------------------------|
+| ₿ BTC  | `bc1qa83g3mxrzrw52ke0lvt4qr36qpywqykgt74f2g`     | ![QR](/images/btc_qr.png)        |
+
+###
+
 <p align="center">
   <a href="https://www.buymeacoffee.com/tu_usuario" target="_blank">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" width="217" />
