@@ -40,7 +40,6 @@
 
   <!-- Snake Animation -->
 <img
-  alt="github contribution snake dark"
   src="https://raw.githubusercontent.com/marichu-kt/marichu-kt/output/github-snake-dark.svg"
 />
 
