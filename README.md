@@ -45,6 +45,19 @@
 
 ###
 
+```mermaid
+graph TD
+  A[marichu-kt] --> B[.github/]
+  B --> C[workflows/]
+  C --> D[generate.yml]
+  A --> E[images/]
+  E --> F[banner.png]
+  A --> G[README.md]
+  A --> H[LICENSE]
+```
+
+###
+
 <!-- Snake Animation con enlace a Platane/snk -->
 <a href="https://github.com/Platane/snk" target="_blank" rel="noopener noreferrer">
   <img
