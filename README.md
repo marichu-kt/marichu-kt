@@ -23,7 +23,6 @@
 </div>
 
 ###
-###
 
 <!-- Lenguajes y SO-->
 <p align="center">
@@ -41,8 +40,13 @@
 
 ###
 
-| :trollface: |
-|-------------|
+<p align="center">
+  <table>
+    <tr>
+      <td align="center" style="font-size: 32px;">:trollface:</td>
+    </tr>
+  </table>
+</p>
 
 ###
 
@@ -56,11 +60,6 @@ graph TD
   A --> G[README.md]
   A --> H[LICENSE]
 ```
-
-###
-
-| :trollface: |
-|-------------|
 
 ###
 
