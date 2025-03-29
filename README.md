@@ -77,12 +77,6 @@ graph TD
 
 ###
 
-<img src="https://count.getloli.com/get/@marichu-kt_repo?theme=3d-num" />
-<img src="https://count.getloli.com/get/@marichu-kt_repo?theme=booru-r6gdrawfriends" />
-
-
-###
-
 <!-- Snake Animation con enlace a Platane/snk -->
 <a href="https://github.com/Platane/snk" target="_blank" rel="noopener noreferrer">
   <img
@@ -91,5 +85,10 @@ graph TD
   />
 </a>
 
-
 ###
+
+<p align="center">
+  <img src="https://count.getloli.com/get/@marichu-kt_repo?theme=3d-num" />
+  <br>
+  <img src="https://count.getloli.com/get/@marichu-kt_repo?theme=booru-r6gdrawfriends" />
+</p>
