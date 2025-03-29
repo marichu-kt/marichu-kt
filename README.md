@@ -77,8 +77,8 @@ graph TD
 
 ###
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=marichu-kt.marichu-kt)
-<img src="https://count.getloli.com/get/@marichu-kt_repo?theme=rule34" />
+<img src="https://count.getloli.com/get/@marichu-kt_repo?theme=3d-num" />
+<img src="https://count.getloli.com/get/@marichu-kt_repo?theme=booru-r6gdrawfriends" />
 
 
 ###
