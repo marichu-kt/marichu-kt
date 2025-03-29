@@ -34,7 +34,7 @@
 <!-- Sistemas Operativos -->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ubuntu,debian,kali,linux,archlinux,windows" />
+    <img src="https://skillicons.dev/icons?i=ubuntu,debian,kali,linux,arch,windows" />
   </a>
 </p>
 
