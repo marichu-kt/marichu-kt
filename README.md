@@ -24,7 +24,20 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,python,bash,c,cpp,cmake,cs,java,matlab,r,git,mysql,raspberrypi" />
+    <img src="https://skillicons.dev/icons?i=latex,html,css,js,python,bash,c,cpp,cs,cmake,java,matlab,r,git,mysql,raspberrypi" />
+  </a>
+</p>
+
+
+### 💻 Languages & Tools
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <!-- Fila 1 -->
+    <img src="https://skillicons.dev/icons?i=latex,html,css,js,python,bash,c,cpp" />
+    <br/>
+    <!-- Fila 2 -->
+    <img src="https://skillicons.dev/icons?i=cs,cmake,java,matlab,r,git,mysql,raspberrypi" />
   </a>
 </p>
 
