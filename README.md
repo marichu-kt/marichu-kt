@@ -8,7 +8,7 @@
 
 ###
 
-<img src="/images/banner.png" alt="Banner" width="100%" />
+<img src="/images/banner.png?updated=1" alt="Banner" width="100%" />
 
 ###
 
