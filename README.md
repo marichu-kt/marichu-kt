@@ -14,12 +14,12 @@
 
 <div align="center">
   <!-- Stats generales -->
-  <a href="[https://github.com/marichu-kt?tab=repositories](https://github.com/anuraghazra/github-readme-stats)" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener noreferrer">
     <img src="https://github-readme-stats.vercel.app/api?username=marichu-kt&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true" height="180" />
   </a>
 
   <!-- Lenguajes más usados -->
-  <a href="[https://github.com/marichu-kt?tab=repositories](https://github.com/anuraghazra/github-readme-stats)" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener noreferrer">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marichu-kt&layout=compact&theme=dracula&hide_border=true&langs_count=10" height="180" />
   </a>
 </div>
