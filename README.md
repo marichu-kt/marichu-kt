@@ -23,16 +23,18 @@
 <!-- Lenguajes -->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=latex,html,css,js,python,bash,c,cpp" />
+    <!-- Fila 1 -->
+    <img src="https://skillicons.dev/icons?i=latex,html,css,js,python,c,cpp,cs" />
     <br/>
-    <img src="https://skillicons.dev/icons?i=cs,cmake,java,matlab,r,git,mysql,raspberrypi" />
+    <!-- Fila 2 -->
+    <img src="https://skillicons.dev/icons?i=bash,cmake,java,matlab,r,git,mysql,raspberrypi" />
   </a>
 </p>
 
-<!-- SO -->
+<!-- Sistemas Operativos -->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ubuntu,debian,kali,linux,arch,windows" />
+    <img src="https://skillicons.dev/icons?i=ubuntu,debian,kali,linux,archlinux,windows" />
   </a>
 </p>
 
