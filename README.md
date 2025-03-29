@@ -14,10 +14,14 @@
 
 <div align="center">
   <!-- Stats generales -->
-  <img src="https://github-readme-stats.vercel.app/api?username=marichu-kt&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true" height="180" />
+  <a href="https://github.com/marichu-kt?tab=repositories" target="_blank" rel="noopener noreferrer">
+    <img src="https://github-readme-stats.vercel.app/api?username=marichu-kt&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true" height="180" />
+  </a>
 
   <!-- Lenguajes más usados -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marichu-kt&layout=compact&theme=dracula&hide_border=true&langs_count=10" height="180" />
+  <a href="https://github.com/marichu-kt?tab=repositories" target="_blank" rel="noopener noreferrer">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marichu-kt&layout=compact&theme=dracula&hide_border=true&langs_count=10" height="180" />
+  </a>
 </div>
 
 ###
