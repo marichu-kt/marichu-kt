@@ -1,5 +1,6 @@
 ###
 
+<!-- Mensaje bienvenida -->
 <h1 align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?lines=Welcome+to+@marichu_kt's+repository;Bienvenido+al+repositorio+de+@marichu_kt;Добро+пожаловать+в+репозиторий+@marichu_kt;مرحبًا+بك+في+مستودع+@marichu_kt;@marichu_kt+के+रिपॉजिटरी+में+आपका+स्वागत+है;欢迎来到@marichu_kt的仓库;@marichu_kt+のリポジトリへようこそ&center=true&size=28&color=39FF14&width=1000&pause=1000&duration=2500&startDelay=300&v=4">
@@ -8,14 +9,15 @@
 
 ###
 
+<!-- Banner -->
 <a href="https://github.com/marichu-kt?tab=repositories">
   <img src="/images/banner.png" alt="Banner personal" width="100%" />
 </a>
 
 ###
 
+<!-- Stats generales -->
 <div align="center">
-  <!-- Stats generales -->
   <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener noreferrer">
     <img src="https://github-readme-stats.vercel.app/api?username=marichu-kt&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true" height="180" />
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marichu-kt&layout=compact&theme=dracula&hide_border=true&langs_count=10" height="180" />
@@ -40,6 +42,7 @@
 
 ###
 
+<!-- Mermaid -->
 ```mermaid
 graph TD
   A[marichu-kt] --> B[.github/]
@@ -54,8 +57,8 @@ graph TD
 
 ###
 
+<!-- Donaciones -->
 <div align="center">
-
 <table>
   <tr>
     <td colspan="3" align="center">
@@ -87,8 +90,9 @@ graph TD
 
 ###
 
+<!-- Contador de visitas -->
 <p align="center">
-  <img src="https://count.getloli.com/get/@marichu-kt_repo?theme=3d-num" />
-  <br>
-  <img src="https://count.getloli.com/get/@marichu-kt_repo?theme=booru-r6gdrawfriends" />
+  <a href="https://count.getloli.com/" target="_blank">
+    <img src="https://count.getloli.com/get/@marichu-kt_repo?theme=3d-num" alt="Visitor counter" />
+  </a>
 </p>
