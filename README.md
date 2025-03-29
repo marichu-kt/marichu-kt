@@ -20,36 +20,23 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marichu-kt&layout=compact&theme=dracula&hide_border=true&langs_count=10" height="180" />
 </div>
 
-###
+### 💻 Languages & Tools
 
-<div align="left">
-  <!-- TeX -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" height="30" alt="tex logo" />
-  <img width="12" />
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=latex,html,css,js,python,bash,c,cpp,cmake,csharp,dotnet,java,matlab,r,git,github,mysql,raspberrypi" />
+  </a>
+</p>
 
-  <!-- HTML -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html logo" />
-  <img width="12" />
+---
 
-  <!-- Python -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo" />
-  <img width="12" />
+### 🖥️ Operating Systems
 
-  <!-- C# -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo" />
-  <img width="12" />
-
-  <!-- CSS -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css logo" />
-  <img width="12" />
-
-  <!-- C -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c logo" />
-  <img width="12" />
-
-  <!-- JavaScript -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo" />
-</div>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ubuntu,debian,kali,linux,archlinux,windows" />
+  </a>
+</p>
 
 ###
 
