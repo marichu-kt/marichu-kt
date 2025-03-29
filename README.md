@@ -41,6 +41,11 @@
 
 ###
 
+| :trollface: |
+|-------------|
+
+###
+
 ```mermaid
 graph TD
   A[marichu-kt] --> B[.github/]
@@ -51,6 +56,11 @@ graph TD
   A --> G[README.md]
   A --> H[LICENSE]
 ```
+
+###
+
+| :trollface: |
+|-------------|
 
 ###
 
