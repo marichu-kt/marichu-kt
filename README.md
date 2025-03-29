@@ -53,6 +53,14 @@ graph TD
 
 ###
 
+<p align="center">
+  <a href="https://www.buymeacoffee.com/tu_usuario" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" width="217" />
+  </a>
+</p>
+
+###
+
 <!-- Snake Animation con enlace a Platane/snk -->
 <a href="https://github.com/Platane/snk" target="_blank" rel="noopener noreferrer">
   <img
