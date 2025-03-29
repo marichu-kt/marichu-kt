@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?lines=+++++Welcome+to+@marichu_kt's+repository;+++++Bienvenido+al+repositorio+de+@marichu_kt;+++++Добро+пожаловать+в+репозиторий+@marichu_kt;+++++مرحبًا+بك+في+مستودع+@marichu_kt&center=true&size=28&color=39FF14&width=700&startDelay=500">
+    <img src="https://readme-typing-svg.herokuapp.com?lines=+++++Welcome+to+@marichu_kt's+repository;+++++Bienvenido+al+repositorio+de+@marichu_kt;+++++Добро+пожаловать+в+репозиторий+@marichu_kt;+++++مرحبًا+بك+في+مستودع+@marichu_kt;+++++@marichu_kt के रिपॉजिटरी में आपका स्वागत है;+++++欢迎来到 @marichu_kt 的仓库;+++++@marichu_kt のリポジトリへようこそ&center=true&size=28&color=39FF14&width=700&startDelay=500">
   </a>
 </h1>
 
