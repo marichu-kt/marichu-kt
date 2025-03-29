@@ -8,7 +8,9 @@
 
 ###
 
-<img src="/images/banner.png?updated=1" alt="Banner" width="100%" />
+<a href="https://github.com/marichu-kt?tab=repositories">
+  <img src="/images/banner.png" alt="Banner personal" width="100%" />
+</a>
 
 ###
 
