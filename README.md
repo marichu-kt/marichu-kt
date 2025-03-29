@@ -40,16 +40,6 @@
 
 ###
 
-<p align="center">
-  <table>
-    <tr>
-      <td align="center" style="font-size: 32px;">:trollface:</td>
-    </tr>
-  </table>
-</p>
-
-###
-
 ```mermaid
 graph TD
   A[marichu-kt] --> B[.github/]
