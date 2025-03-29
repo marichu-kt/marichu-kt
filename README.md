@@ -20,29 +20,16 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marichu-kt&layout=compact&theme=dracula&hide_border=true&langs_count=10" height="180" />
 </div>
 
-### 💻 Languages & Tools
-
+<!-- Lenguajes -->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=latex,html,css,js,python,bash,c,cpp,cs,cmake,java,matlab,r,git,mysql,raspberrypi" />
-  </a>
-</p>
-
-
-### 💻 Languages & Tools
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <!-- Fila 1 -->
     <img src="https://skillicons.dev/icons?i=latex,html,css,js,python,bash,c,cpp" />
     <br/>
-    <!-- Fila 2 -->
     <img src="https://skillicons.dev/icons?i=cs,cmake,java,matlab,r,git,mysql,raspberrypi" />
   </a>
 </p>
 
-### 🖥️ Operating Systems
-
+<!-- SO -->
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=ubuntu,debian,kali,linux,arch,windows" />
