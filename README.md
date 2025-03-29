@@ -9,7 +9,7 @@
 ###
 
 <a href="https://github.com/marichu-kt?tab=repositories">
-  <img src="/images/banner.png" alt="Banner personal" width="100%" />
+  <img src="/images/banner.png" alt="Banner personal" width="100%" style="border-radius: 15px;" />
 </a>
 
 ###
