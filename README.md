@@ -80,6 +80,17 @@ graph TD
 
 ###
 
+<!-- Contador de visitas con banderas (desde FlagCounter) -->
+<p align="center">
+  <a href="http://s01.flagcounter.com/more/ap7">
+    <img src="https://s01.flagcounter.com/countxl/ap7/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_250/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">
+  </a>
+  <br/>
+  <sub>Counting of visitors to this page started from May 8, 2022</sub>
+</p>
+
+###
+
 <!-- Snake Animation con enlace a Platane/snk -->
 <a href="https://github.com/Platane/snk" target="_blank" rel="noopener noreferrer">
   <img
