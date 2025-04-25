@@ -11,7 +11,7 @@
 
 <!-- Banner -->
 <a href="https://github.com/marichu-kt?tab=repositories">
-  <img src="/images/banner.png" alt="Banner personal" width="100%" />
+  <img src="/assets/banner.png" alt="Banner personal" width="100%" />
 </a>
 
 ###
@@ -48,7 +48,7 @@ graph TD
   A[marichu-kt] --> B[.github/]
   B --> C[workflows/]
   C --> D[generate.yml]
-  A --> E[images/]
+  A --> E[assets/]
   E --> F[banner.png]
   E --> I[btc_qr.png]
   A --> G[README.md]
@@ -73,7 +73,7 @@ graph TD
   <tr>
     <td>₿ BTC</td>
     <td><code>bc1qa83g3mxrzrw52ke0lvt4qr36qpywqykgt74f2g</code></td>
-    <td><img src="/images/btc_qr.png" width="100" alt="BTC QR Code" /></td>
+    <td><img src="/assets/btc_qr.png" width="100" alt="BTC QR Code" /></td>
   </tr>
 </table>
 </div>
