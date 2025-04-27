@@ -85,8 +85,6 @@ graph TD
   <a href="https://info.flagcounter.com/24qY">
     <img src="https://s01.flagcounter.com/count2/24qY/bg_303030/txt_FFFFFF/border_3F4D38/columns_8/maxflags_248/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">
   </a>
-  <br/>
-  <sub>Counting visits to <strong>marichu-kt</strong> started on May 8, 2024</sub>
 </p>
 
 ###
