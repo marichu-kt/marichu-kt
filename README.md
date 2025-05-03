@@ -36,10 +36,10 @@
     <img src="https://skillicons.dev/icons?i=latex,bash,cmake,php,nodejs,git,mysql,sqlite,mongodb,dotnet" />
     <br/>
     <!-- Fila 3 -->
-    <img src="https://skillicons.dev/icons?i=raspberrypi,powershell,bootstrap,jquery,wordpress,ubuntu,debian,kali,linux,arch" />
+    <img src="https://skillicons.dev/icons?i=raspberrypi,powershell,bootstrap,jquery,windows,ubuntu,debian,kali,linux,arch" />
     <br/>
     <!-- Fila 4 -->
-    <img src="https://skillicons.dev/icons?i=windows,clion,visualstudio,vscode,github,stackoverflow,linkedin,instagram,twitter,md" />
+    <img src="https://skillicons.dev/icons?i=wordpress,clion,visualstudio,vscode,github,stackoverflow,linkedin,instagram,twitter,md" />
   </a>
 </p>
 
