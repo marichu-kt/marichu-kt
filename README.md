@@ -111,3 +111,8 @@ graph TD
     <img src="https://count.getloli.com/get/@marichu-kt_repo?theme=3d-num" alt="Visitor counter" />
   </a>
 </p>
+
+###
+
+<!-- Footer SVG -->
+[![footer](https://capsule-render.vercel.app/api?type=waving&height=200&color=39FF14&section=footer)](https://github.com/kyechan99/capsule-render?tab=readme-ov-file#custom-color-list)
