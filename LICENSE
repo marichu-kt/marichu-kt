@@ -1,16 +1,23 @@
-Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License
 
-This repository is made available for personal or public use under the terms of the Creative Commons Attribution 4.0 International License.
+## Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-You are free to:
+This repository is made available for personal or public use under the terms of the **Creative Commons Attribution 4.0 International License**.
+
+---
+
+### You are free to:
 
 - **Share** — copy and redistribute the material in any medium or format  
 - **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
 
-Under the following terms:
+---
+
+### Under the following terms:
 
 1. **Attribution** — You must give appropriate credit to the creators of the tools and assets used in this repository, including but not limited to:
 
+   - [Capsule Render](https://github.com/kyechan99/capsule-render?tab=readme-ov-file#custom-color-list) by [@kyechan99](https://github.com/kyechan99)
    - [readme-typing-svg](https://github.com/denvercoder1/readme-typing-svg) by [@denvercoder1](https://github.com/denvercoder1)
    - [Platane/snk](https://github.com/Platane/snk) by [@Platane](https://github.com/Platane)
    - [skillicons.dev](https://skillicons.dev) by [@tandpfun](https://github.com/tandpfun)
@@ -23,4 +30,6 @@ Under the following terms:
 
 3. **Disclaimer** — You, as the user of this repository, do not claim ownership or authorship of the above tools or assets.
 
-Full license text: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+---
+
+**Full license text:** [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
