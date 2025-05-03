@@ -1,5 +1,5 @@
 <!-- Header SVG -->
-[![waving](https://capsule-render.vercel.app/api?type=waving&height=200&color=39FF14)](https://github.com/kyechan99/capsule-render?tab=readme-ov-file#custom-color-list)
+[![waving](https://capsule-render.vercel.app/api?type=waving&height=200&color=39FF14)](https://github.com/kyechan99/capsule-render)
 
 ###
 
@@ -115,4 +115,4 @@ graph TD
 ###
 
 <!-- Footer SVG -->
-[![footer](https://capsule-render.vercel.app/api?type=waving&height=200&color=39FF14&section=footer)](https://github.com/kyechan99/capsule-render?tab=readme-ov-file#custom-color-list)
+[![footer](https://capsule-render.vercel.app/api?type=waving&height=200&color=39FF14&section=footer)](https://github.com/kyechan99/capsule-render)
