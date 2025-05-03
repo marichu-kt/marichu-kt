@@ -39,7 +39,7 @@
     <img src="https://skillicons.dev/icons?i=raspberrypi,powershell,bootstrap,jquery,windows,ubuntu,debian,kali,linux,arch" />
     <br/>
     <!-- Fila 4 -->
-    <img src="https://skillicons.dev/icons?i=wordpress,clion,visualstudio,vscode,github,stackoverflow, md, instagram, twitter, linkedin" />
+    <img src="https://skillicons.dev/icons?i=wordpress,clion,visualstudio,vscode,github,stackoverflow,markdown,instagram,twitter,linkedin" />
   </a>
 </p>
 
