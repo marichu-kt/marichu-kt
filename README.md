@@ -35,8 +35,14 @@
     <!-- Fila 2 -->
     <img src="https://skillicons.dev/icons?i=bash,cmake,java,matlab,r,git,mysql,raspberrypi" />
     <br/>
-    <!-- Fila 2 -->
-    <img src="https://skillicons.dev/icons?i=ubuntu,debian,kali,linux,arch,windows,arch" />
+    <!-- Fila 3 -->
+    <img src="https://skillicons.dev/icons?i=ubuntu,debian,kali,linux,arch,windows" />
+    <br/>
+    <!-- Fila 4: Herramientas y frameworks -->
+    <img src="https://skillicons.dev/icons?i=bootstrap,jquery,clion,visualstudio,vscode,wordpress,dotnet,md,mongodb,sqlite,nodejs,php" />
+    <br/>
+    <!-- Fila 5: Otros -->
+    <img src="https://skillicons.dev/icons?i=powershell,github,githubactions,gmail,instagram,twitter,linkedin,stackoverflow" />
   </a>
 </p>
 
