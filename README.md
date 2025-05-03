@@ -1,5 +1,10 @@
 ###
 
+<!-- Header SVG -->
+[![waving](https://capsule-render.vercel.app/api?type=waving&height=200&color=39FF14)](https://github.com/kyechan99/capsule-render?tab=readme-ov-file#custom-color-list)
+
+###
+
 <!-- Mensaje bienvenida -->
 <h1 align="center">
   <a href="https://git.io/typing-svg">
