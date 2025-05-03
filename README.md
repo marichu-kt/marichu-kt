@@ -26,8 +26,6 @@
 
 ###
 
-<div style="border: 2px solid #444; border-radius: 10px; padding: 20px; display: inline-block;">
-
 <!-- Lenguajes, Herramientas y Plataformas -->
 <p align="center">
   <a href="https://skillicons.dev">
@@ -44,9 +42,6 @@
     <img src="https://skillicons.dev/icons?i=wordpress,clion,visualstudio,vscode,github,stackoverflow,markdown,instagram,twitter,linkedin" />
   </a>
 </p>
-
-</div>
-
 
 ###
 
