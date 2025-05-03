@@ -36,7 +36,7 @@
     <img src="https://skillicons.dev/icons?i=bash,cmake,java,matlab,r,git,mysql,raspberrypi" />
     <br/>
     <!-- Fila 2 -->
-    <img src="https://skillicons.dev/icons?i=ubuntu,debian,kali,linux,arch,windows" />
+    <img src="https://skillicons.dev/icons?i=ubuntu,debian,kali,linux,arch,windows,arch" />
   </a>
 </p>
 
