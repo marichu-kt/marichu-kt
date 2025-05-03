@@ -26,23 +26,26 @@
 
 ###
 
-<!-- Lenguajes y SO-->
+<!-- Lenguajes, Herramientas y Plataformas -->
 <p align="center">
   <a href="https://skillicons.dev">
-    <!-- Fila 1 -->
-    <img src="https://skillicons.dev/icons?i=latex,html,css,js,python,c,cpp,cs" />
+    <!-- Fila 1: Lenguajes -->
+    <img src="https://skillicons.dev/icons?i=html,css,js,python,c,cpp,cs,java" />
     <br/>
-    <!-- Fila 2 -->
-    <img src="https://skillicons.dev/icons?i=bash,cmake,java,matlab,r,git,mysql,raspberrypi" />
+    <!-- Fila 2: Lenguajes y herramientas -->
+    <img src="https://skillicons.dev/icons?i=matlab,r,latex,bash,cmake,php,nodejs,git" />
     <br/>
-    <!-- Fila 3 -->
-    <img src="https://skillicons.dev/icons?i=ubuntu,debian,kali,linux,arch,windows" />
+    <!-- Fila 3: Bases de datos y sistemas -->
+    <img src="https://skillicons.dev/icons?i=mysql,sqlite,mongodb,dotnet,raspberrypi,powershell,md,bootstrap" />
     <br/>
-    <!-- Fila 4: Herramientas y frameworks -->
-    <img src="https://skillicons.dev/icons?i=bootstrap,jquery,clion,visualstudio,vscode,wordpress,dotnet,md,mongodb,sqlite,nodejs,php" />
+    <!-- Fila 4: Frameworks y sistemas operativos -->
+    <img src="https://skillicons.dev/icons?i=jquery,wordpress,ubuntu,debian,kali,linux,arch,windows" />
     <br/>
-    <!-- Fila 5: Otros -->
-    <img src="https://skillicons.dev/icons?i=powershell,github,githubactions,gmail,instagram,twitter,linkedin,stackoverflow" />
+    <!-- Fila 5: IDEs y plataformas -->
+    <img src="https://skillicons.dev/icons?i=clion,visualstudio,vscode,github,githubactions,stackoverflow,linkedin,gmail" />
+    <br/>
+    <!-- Fila 6: Redes sociales -->
+    <img src="https://skillicons.dev/icons?i=instagram,twitter" />
   </a>
 </p>
 
