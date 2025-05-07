@@ -46,6 +46,76 @@
 
 ###
 
+<p align="center">
+  <img src="assets/projects.png" alt="My Projects" width="100%" />
+</p>
+
+>[!TIP]
+> 🌟 **Support matters!** If you find any of these projects useful or interesting, please consider giving them a **star ⭐**. Every bit of encouragement helps me keep building awesome things 🚀. Thanks for your support! 🙌
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/marichu-kt/ChaCha20-Poly1305-X25519">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=ChaCha20-Poly1305-X25519&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366" alt="ChaCha20-Poly1305-X25519">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/marichu-kt/WEBSITE-CAPTCHA">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=WEBSITE-CAPTCHA&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366" alt="WEBSITE-CAPTCHA">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/marichu-kt/Vending-Machine-CSharp">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=Vending-Machine-CSharp&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366" alt="Vending-Machine-CSharp">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/marichu-kt/Slot-Machine-CSharp">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=Slot-Machine-CSharp&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366" alt="Slot-Machine-CSharp">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/marichu-kt/QR-Generator">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=QR-Generator&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366" alt="QR-Generator">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/marichu-kt/GitHub-Unfollowed">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=GitHub-Unfollowed&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366" alt="GitHub-Unfollowed">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/marichu-kt/VoluntApp">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=VoluntApp&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366" alt="VoluntApp">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/marichu-kt/SecureBank">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=SecureBank&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366" alt="SecureBank">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/marichu-kt/Hercules-SETUP-Utility">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=Hercules-SETUP-Utility&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366" alt="Hercules-SETUP-Utility">
+      </a>
+    </td>
+    <td align="center" valign="middle">
+      <strong style="color:#b0e0e6; font-size: 20px;">🚧 Coming Soon!!! 🚧</strong>
+    </td>
+  </tr>
+</table>
+
+###
+
 <!-- Mermaid -->
 ```mermaid
 graph TD
@@ -55,6 +125,7 @@ graph TD
   A --> E[assets/]
   E --> F[banner.png]
   E --> I[btc_qr.png]
+  E --> J[projects.png]
   A --> G[README.md]
   A --> H[LICENSE]
 ```
