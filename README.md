@@ -61,7 +61,7 @@
   <tr>
     <td>
       <a href="https://github.com/marichu-kt/ChaCha20-Poly1305-X25519">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=ChaCha20-Poly1305-X25519&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366" alt="ChaCha20-Poly1305-X25519">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=ChaCha20-Poly1305-X25519&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800" alt="ChaCha20-Poly1305-X25519">
       </a>
     </td>
     <td>
