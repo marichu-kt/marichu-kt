@@ -45,7 +45,7 @@
 </p>
 
 >[!NOTE]
-> 📝 **Note:** Above this note, I've listed all the programming languages and technologies I've used in my life so far.
+> 📝 Above this note, I've listed all the programming languages and technologies I've used in my life so far.
 
 ###
 
