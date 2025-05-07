@@ -14,7 +14,7 @@
 
 <!-- Banner -->
 <a href="https://github.com/marichu-kt?tab=repositories">
-  <img src="https://raw.githubusercontent.com/marichu-kt/<repo>/main/assets/banner.png" alt="Banner personal" width="100%" />
+  <img src="https://raw.githubusercontent.com/marichu-kt/marichu-kt/main/assets/banner.png" alt="Banner personal" width="100%" />
 </a>
 
 ###
