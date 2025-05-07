@@ -47,7 +47,7 @@
 ###
 
 <p align="center">
-  <img src="assets/projects.png" alt="My Projects" width="100%" />
+  <img src="assets/banner.png?v=2" alt="Banner" width="100%" />
 </p>
 
 >[!TIP]
