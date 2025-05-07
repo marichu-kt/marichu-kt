@@ -13,9 +13,7 @@
 ###
 
 <!-- Banner -->
-<a href="https://github.com/marichu-kt?tab=repositories">
-  <img src="/assets/banner.png" alt="Banner personal" width="100%" />
-</a>
+<img src="/assets/banner.png" alt="Banner personal" width="100%" />
 
 ###
 
