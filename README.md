@@ -1,3 +1,5 @@
+<!-- Última actualización: 2025-05-09 01:00:00 UTC -->
+
 <!-- Header SVG -->
 [![waving](https://capsule-render.vercel.app/api?type=waving&height=200&color=39FF14)](https://github.com/kyechan99/capsule-render)
 
