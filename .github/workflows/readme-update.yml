@@ -1,4 +1,4 @@
-name: Daily Multi-Commit
+name: README Update
 
 on:
   schedule:
@@ -25,7 +25,7 @@ jobs:
             DATE=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
             sed -i "1s|^.*$|<!-- Última actualización: $DATE -->|" README.md
             git add README.md
-            git commit -m "chore: daily commit [skip ci]" || echo "No changes to commit"
+            git commit -m "Update @marichu_kt README.md" || echo "No changes to commit"
             sleep 5
           done
 
