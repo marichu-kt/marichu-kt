@@ -1,0 +1,32 @@
+name: Daily Multi-Commit
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  multi-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Make multiple commits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          COMMITS=$(( ( RANDOM % 7 ) + 1 ))
+          echo "Making $COMMITS commits today"
+
+          for i in $(seq 1 $COMMITS); do
+            DATE=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
+            sed -i "1s|^.*$|<!-- Última actualización: $DATE -->|" README.md
+            git add README.md
+            git commit -m "chore: daily commit [skip ci]" || echo "No changes to commit"
+            sleep 5
+          done
+
+          git push
