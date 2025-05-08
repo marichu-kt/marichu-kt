@@ -128,6 +128,7 @@ graph TD
   A[marichu-kt] --> B[.github/]
   B --> C[workflows/]
   C --> D[generate.yml]
+  C --> K[readme-update.yml]
   A --> E[assets/]
   E --> F[banner.png]
   E --> I[btc_qr.png]
