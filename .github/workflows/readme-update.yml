@@ -1,9 +1,9 @@
-name: ♻️ README Cache Buster
+name: README Cache Buster
 
 on:
   schedule:
-    - cron: '0 2 * * *' # Se ejecuta todos los días a las 2:00 UTC
-  workflow_dispatch:     # Permite ejecutarlo manualmente desde GitHub
+    - cron: '0 2 * * *'
+  workflow_dispatch:
 
 jobs:
   update-readme-cache:
@@ -23,15 +23,17 @@ jobs:
           TODAY=$(date -u '+%Y%m%d')
           echo "🔄 Actualizando cache_bust=$TODAY en README.md"
 
-          # Reemplaza o añade el parámetro cache_bust de forma segura en las imágenes
-          sed -i -E 's|(https://github-readme-stats\.vercel\.app/api/pin/\?[^"]*?)(&?cache_bust=[0-9]+)?("|&)|\1\3\2|g' README.md
-          sed -i -E "s|(https://github-readme-stats\.vercel\.app/api/pin/\?[^\" ]*)|\1&cache_bust=$TODAY|g" README.md
+          # Eliminar parámetros cache_bust anteriores (si los hay)
+          sed -i 's/\&cache_bust=[0-9]\{8\}//g' README.md
+
+          # Añadir el nuevo cache_bust al final de las imágenes
+          sed -i "s|github-readme-stats.vercel.app/api/pin/\([^\"?]*\?\S*\)|github-readme-stats.vercel.app/api/pin/\1\&cache_bust=$TODAY|g" README.md
 
           git add README.md
 
           if git diff --cached --quiet; then
-            echo "No hay cambios que hacer."
+            echo "No hay cambios."
           else
-            git commit -m "Auto-update cache_bust to $TODAY"
+            git commit -m "♻Auto-update cache_bust=$TODAY"
             git push
           fi
