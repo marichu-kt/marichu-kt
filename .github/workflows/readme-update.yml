@@ -1,32 +1,29 @@
-name: README Update
+name: README Cache Buster
 
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 2 * * *' # cada día a las 2:00 UTC
   workflow_dispatch:
 
 jobs:
-  multi-commit:
+  update-readme-cache:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Make multiple commits
+      - name: Cache bust GitHub stats image URLs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          COMMITS=$(( ( RANDOM % 7 ) + 1 ))
-          echo "Making $COMMITS commits today"
+          TODAY=$(date -u '+%Y%m%d')
+          echo "Añadiendo cache_bust=$TODAY a las imágenes del README.md"
 
-          for i in $(seq 1 $COMMITS); do
-            DATE=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
-            sed -i "1s|^.*$|<!-- Última actualización: $DATE -->|" README.md
-            git add README.md
-            git commit -m "Update @marichu_kt README.md" || echo "No changes to commit"
-            sleep 5
-          done
+          # Añade o reemplaza el parámetro cache_bust=YYYYMMDD en las URLs
+          sed -i -E "s/(vercel\.app\/api\/pin\/\?[^\" ]*)(?:&cache_bust=[0-9]+)?/\1&cache_bust=$TODAY/g" README.md
 
+          git add README.md
+          git commit -m "Auto-update cache_bust to $TODAY" || echo "No hay cambios"
           git push
