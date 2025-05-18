@@ -1,9 +1,9 @@
-name: ♻️ Actualizar cache_bust y timestamp en README
+name: Actualizar cache_bust y timestamp en README
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Cada día a las 02:00 UTC
-  workflow_dispatch:
+    - cron: '0 2 * * *'  # Ejecutar todos los días a las 02:00 UTC
+  workflow_dispatch:      # Permitir ejecución manual desde GitHub
 
 jobs:
   update-readme:
@@ -26,22 +26,22 @@ jobs:
           echo "🛠️ cache_bust = $FECHA"
           echo "🛠️ timestamp = $TIMESTAMP"
 
-          # Reemplazar primera línea por la nueva marca de tiempo
+          # 1. Actualizar la primera línea del README.md con la fecha y hora actuales
           sed -i "1s|^.*$|<!-- Última actualización: $TIMESTAMP -->|" README.md
 
-          # Eliminar cache_bust anterior
+          # 2. Eliminar cualquier cache_bust anterior
           sed -i 's/&cache_bust=[0-9]\{8\}//g' README.md
 
-          # Añadir nuevo cache_bust al final de cada imagen
-          sed -i "s|\(vercel\.app/api/pin/[^\"']*\)|\1&cache_bust=$FECHA|g" README.md
+          # 3. Añadir nuevo cache_bust justo antes del cierre de la comilla en cada src=""
+          sed -i -E 's|(src="[^"]+)(\")|\1\&cache_bust='"$FECHA"'\2|g' README.md
 
       - name: Confirmar cambios si los hay
         run: |
           if git diff --quiet; then
-            echo "✅ No hay cambios que guardar."
+            echo "No hay cambios que guardar."
             exit 0
           fi
 
           git add README.md
-          git commit -m "♻️ Actualización automática: $TIMESTAMP"
+          git commit -m "cache_bust actualizado a $FECHA"
           git push
