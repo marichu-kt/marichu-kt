@@ -92,7 +92,7 @@
     </td>
     <td>
       <a href="https://github.com/marichu-kt/GitHub-Unfollowed">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=GitHub-Unfollowed&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366"&cache_bust=20250518 alt="GitHub-Unfollowed">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=GitHub-Unfollowed&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366"&cache_bust=20250519 alt="GitHub-Unfollowed">
       </a>
     </td>
   </tr>
