@@ -1,0 +1,47 @@
+name: ♻️ Actualizar cache_bust y timestamp en README
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # Cada día a las 02:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Git
+        run: |
+          git config user.name "marichu-kt"
+          git config user.email "marichu-kt@users.noreply.github.com"
+
+      - name: Actualizar README.md
+        run: |
+          FECHA=$(date -u '+%Y%m%d')
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
+
+          echo "🛠️ cache_bust = $FECHA"
+          echo "🛠️ timestamp = $TIMESTAMP"
+
+          # Reemplazar primera línea por la nueva marca de tiempo
+          sed -i "1s|^.*$|<!-- Última actualización: $TIMESTAMP -->|" README.md
+
+          # Eliminar cache_bust anterior
+          sed -i 's/&cache_bust=[0-9]\{8\}//g' README.md
+
+          # Añadir nuevo cache_bust al final de cada imagen
+          sed -i "s|\(vercel\.app/api/pin/[^\"']*\)|\1&cache_bust=$FECHA|g" README.md
+
+      - name: Confirmar cambios si los hay
+        run: |
+          if git diff --quiet; then
+            echo "✅ No hay cambios que guardar."
+            exit 0
+          fi
+
+          git add README.md
+          git commit -m "♻️ Actualización automática: $TIMESTAMP"
+          git push
