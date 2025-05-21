@@ -175,6 +175,11 @@ graph TD
 
 ###
 
+<!-- Contador stars de paises -->
+![Metrics](https://raw.githubusercontent.com/marichu-kt/marichu-kt/main/metrics.svg)
+
+###
+
 <!-- Grafico de actividad GitHub -->
 [![Actividad reciente](https://github-readme-activity-graph.vercel.app/graph?username=marichu-kt&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph?tab=readme-ov-file)
 
