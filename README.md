@@ -148,13 +148,13 @@ graph TD
     </td>
   </tr>
   <tr>
-    <th>🪙 BTC ₿</th>
+    <th>₿ BTC</th>
     <th>Address</th>
     <th>QR Code</th>
   </tr>
   <tr>
     <td>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg" alt="BTC Logo" width="16" height="16" style="vertical-align: middle;" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg" alt="BTC Logo" width="24" height="24" style="vertical-align: middle; margin-right: 4px;" />
     </td>
     <td><code>bc1qa83g3mxrzrw52ke0lvt4qr36qpywqykgt74f2g</code></td>
     <td><img src="/assets/btc_qr.png" width="100" alt="BTC QR Code" /></td>
