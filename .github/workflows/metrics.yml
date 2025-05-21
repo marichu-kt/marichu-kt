@@ -2,8 +2,8 @@ name: Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # se ejecuta una vez al día
-  workflow_dispatch:     # permite ejecutarlo manualmente
+    - cron: "0 0 * * *"  # todos los días a medianoche
+  workflow_dispatch:     # permite ejecución manual
 
 jobs:
   github-metrics:
@@ -11,10 +11,14 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          # Archivo generado
           filename: metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
 
-          # Datos básicos
+          # Tokens necesarios
+          token: ${{ secrets.METRICS_TOKEN }}
+          config_stargazers_token: ${{ secrets.MAPS_API_KEY }}
+
+          # Datos base
           base: header, activity, community, repositories, metadata
 
           # Plugins activados
