@@ -148,12 +148,14 @@ graph TD
     </td>
   </tr>
   <tr>
-    <th>🪙 Coin</th>
+    <th>🪙 BTC ₿</th>
     <th>Address</th>
     <th>QR Code</th>
   </tr>
   <tr>
-    <td> <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.svg?v=029" alt="BTC Logo" width="16" height="16" style="vertical-align: middle;"/> ₿ BTC</td>
+    <td>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg" alt="BTC Logo" width="16" height="16" style="vertical-align: middle;" />
+    </td>
     <td><code>bc1qa83g3mxrzrw52ke0lvt4qr36qpywqykgt74f2g</code></td>
     <td><img src="/assets/btc_qr.png" width="100" alt="BTC QR Code" /></td>
   </tr>
