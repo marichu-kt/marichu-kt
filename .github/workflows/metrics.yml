@@ -1,0 +1,30 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # se ejecuta una vez al día
+  workflow_dispatch:     # permite ejecutarlo manualmente
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Datos básicos
+          base: header, activity, community, repositories, metadata
+
+          # Plugins activados
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+          plugin_stargazers: yes
+          plugin_stargazers_worldmap: yes
+          plugin_terminal: yes
+          plugin_xkcd: yes
+          plugin_website: yes
+          plugin_website_url: https://github.com/marichu-kt
