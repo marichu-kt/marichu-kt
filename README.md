@@ -53,7 +53,7 @@
 
 <!-- Proyectos / Repositorios -->
 <p align="center">
-  <img src="assets/projects.png" alt="Projects" width="61%" />
+  <img src="assets/projects.png" alt="Projects" width="60%" />
 </p>
 
 >[!TIP]
