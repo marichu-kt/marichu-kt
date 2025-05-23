@@ -174,31 +174,31 @@ graph TD
 
 ###
 
+<!-- Contador de visitas paises (FlagCounter) -->
+<p align="center">
+  <a href="https://info.flagcounter.com/24qY">
+    <img src="https://s01.flagcounter.com/count2/24qY/bg_303030/txt_FFFFFF/border_3F4D38/columns_8/maxflags_248/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">
+  </a>
+</p>
+
+###
+
 <!-- Diagramas "Escritos a mano" -->
 <p align="center">
   <table>
     <tr>
       <td align="center">
         <a href="https://github.com/timqian/chart.xkcd">
-          <img src="assets/line-humility.png" alt="Knowledge vs Humility" width="400"/>
+          <img src="assets/line-humility.png" alt="Knowledge vs Humility" width="500"/>
         </a>
       </td>
       <td align="center">
         <a href="https://github.com/timqian/chart.xkcd">
-          <img src="assets/radar-motivation.png" alt="Programming Motivation Radar" width="400"/>
+          <img src="assets/radar-motivation.png" alt="Programming Motivation Radar" width="350"/>
         </a>
       </td>
     </tr>
   </table>
-</p>
-
-###
-
-<!-- Contador de visitas paises (FlagCounter) -->
-<p align="center">
-  <a href="https://info.flagcounter.com/24qY">
-    <img src="https://s01.flagcounter.com/count2/24qY/bg_303030/txt_FFFFFF/border_3F4D38/columns_8/maxflags_248/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">
-  </a>
 </p>
 
 ###
