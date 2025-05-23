@@ -2,26 +2,28 @@ name: 🧊 GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    - cron: '0 18 * * *'  # Se ejecuta diariamente
+    - cron: '0 18 * * *'  # Ejecuta diariamente a las 18:00 UTC
   workflow_dispatch:       # Permite ejecución manual
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Generate 3D Contributions
+    name: Generate GitHub Contributions in Block Dark Mode
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate GitHub Profile 3D
+      - name: Generate GitHub Profile 3D (Block Dark)
         uses: yoshi389111/github-profile-3d-contrib@0.9.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: marichu-kt  # 👈 Añadido manualmente
+          USERNAME: marichu-kt
+        with:
+          args: --theme dark --output-encoding=block
 
       - name: Commit and push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          git commit -m "🧱 Update 3D profile contributions"
+          git commit -m "🧱 Actualización de contribuciones en modo bloque oscuro"
           git push
