@@ -1,9 +1,9 @@
-name: GitHub-Profile-3D-Contrib
+name: 🧊 GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    - cron: '0 18 * * *'  # Se ejecuta diariamente a las 18:00 UTC
-  workflow_dispatch:       # Permite ejecución manual desde la pestaña Actions
+    - cron: '0 18 * * *'  # Se ejecuta diariamente
+  workflow_dispatch:       # Permite ejecución manual
 
 jobs:
   build:
@@ -11,11 +11,12 @@ jobs:
     name: Generate 3D Contributions
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Generate GitHub Profile 3D
         uses: yoshi389111/github-profile-3d-contrib@0.9.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # ✅ NO lo creas tú, ya existe
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: marichu-kt  # 👈 Añadido manualmente
 
       - name: Commit and push
         run: |
