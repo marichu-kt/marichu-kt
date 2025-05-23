@@ -122,6 +122,9 @@
 
 ###
 
+> [!IMPORTANT]  
+> This is the tree-structured layout of my repository **"marichu-kt"**, useful to understand how everything is organized.
+
 <!-- Mermaid -->
 ```mermaid
 graph TD
