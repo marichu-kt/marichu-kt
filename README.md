@@ -187,14 +187,14 @@ graph TD
 <p align="center">
   <table>
     <tr>
-      <td align="center">
+      <td align="center" style="border: 2px solid #00ff00; border-radius: 10px; padding: 5px;">
         <a href="https://github.com/timqian/chart.xkcd">
-          <img src="assets/line-humility.png" alt="Knowledge vs Humility" width="500"/>
+          <img src="assets/line-humility.png" alt="Knowledge vs Humility" height="300"/>
         </a>
       </td>
-      <td align="center">
+      <td align="center" style="border: 2px solid #00ff00; border-radius: 10px; padding: 5px;">
         <a href="https://github.com/timqian/chart.xkcd">
-          <img src="assets/radar-motivation.png" alt="Programming Motivation Radar" width="350"/>
+          <img src="assets/radar-motivation.png" alt="Programming Motivation Radar" height="300"/>
         </a>
       </td>
     </tr>
