@@ -135,6 +135,8 @@ graph TD
   E --> F[banner.png]
   E --> I[btc_qr.png]
   E --> J[projects.png]
+  E --> N[line-humility.png]
+  E --> O[radar-motivation.png]
 
   A --> M[profile-3d-contrib/]
   M --> M1[profile-night-green.svg]
