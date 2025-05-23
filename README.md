@@ -182,13 +182,11 @@ graph TD
         <a href="https://github.com/timqian/chart.xkcd">
           <img src="assets/line-humility.png" alt="Knowledge vs Humility" width="400"/>
         </a>
-        <br/><sub>Knowledge vs Humility</sub>
       </td>
       <td align="center">
         <a href="https://github.com/timqian/chart.xkcd">
           <img src="assets/radar-motivation.png" alt="Programming Motivation Radar" width="400"/>
         </a>
-        <br/><sub>Programming Motivation Radar</sub>
       </td>
     </tr>
   </table>
