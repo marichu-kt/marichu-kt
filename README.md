@@ -129,6 +129,7 @@ graph TD
   B --> C[workflows/]
   C --> D[generate.yml]
   C --> K[readme-update.yml]
+  C --> L[profile-3d.yml]
   A --> E[assets/]
   E --> F[banner.png]
   E --> I[btc_qr.png]
