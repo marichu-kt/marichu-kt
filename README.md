@@ -138,7 +138,7 @@ graph TD
   E --> F[banner.png]
   E --> I[btc_qr.png]
   E --> J[projects.png]
-  E --> N[line-humility.png]
+  E --> N[line-knowledge.png]
   E --> O[radar-motivation.png]
 
   A --> M[profile-3d-contrib/]
@@ -192,7 +192,7 @@ graph TD
     <tr>
       <td align="center" style="border: 2px solid #00ff00; border-radius: 10px; padding: 5px;">
         <a href="https://github.com/timqian/chart.xkcd">
-          <img src="assets/line-humility.png" alt="Knowledge vs Humility" height="300"/>
+          <img src="assets/line-knowledge.png" alt="Knowledge vs Humility" height="300"/>
         </a>
       </td>
       <td align="center" style="border: 2px solid #00ff00; border-radius: 10px; padding: 5px;">
