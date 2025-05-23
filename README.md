@@ -137,16 +137,7 @@ graph TD
   E --> J[projects.png]
 
   A --> M[profile-3d-contrib/]
-  M --> M1[profile-gitblock.svg]
-  M --> M2[profile-green-animate.svg]
-  M --> M3[profile-green.svg]
-  M --> M4[profile-night-green.svg]
-  M --> M5[profile-night-rainbow.svg]
-  M --> M6[profile-night-view.svg]
-  M --> M7[profile-season-animate.svg]
-  M --> M8[profile-season.svg]
-  M --> M9[profile-south-season-animate.svg]
-  M --> M10[profile-south-season.svg]
+  M --> M1[profile-night-green.svg]
 
   A --> G[README.md]
   A --> H[LICENSE]
