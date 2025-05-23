@@ -172,6 +172,20 @@ graph TD
 
 ###
 
+<p align="center">
+  <a href="https://github.com/timqian/chart.xkcd">
+    <img src="assets/line-humility.png" alt="Knowledge vs Humility" width="600"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/timqian/chart.xkcd">
+    <img src="assets/radar-motivation.png" alt="Programming Motivation Radar" width="600"/>
+  </a>
+</p>
+
+###
+
 <!-- Contador de visitas paises (FlagCounter) -->
 <p align="center">
   <a href="https://info.flagcounter.com/24qY">
