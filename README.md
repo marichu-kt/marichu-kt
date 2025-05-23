@@ -180,6 +180,14 @@ graph TD
 
 ###
 
+<!-- Contribuciones 3D GitHub -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
+  <img alt="Contribuciones 3D" src="./profile-3d-contrib/profile-green-animate.svg">
+</picture>
+
+###
+
 <!-- Snake Animation con enlace a Platane/snk -->
 <a href="https://github.com/Platane/snk" target="_blank" rel="noopener noreferrer">
   <img
