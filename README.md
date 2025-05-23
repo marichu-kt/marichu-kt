@@ -181,10 +181,7 @@ graph TD
 ###
 
 <!-- Contribuciones 3D GitHub -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
-  <img alt="Contribuciones 3D" src="./profile-3d-contrib/profile-green-animate.svg">
-</picture>
+[![Contribuciones bloque oscuro](./profile-3d-contrib/profile-dark-block.svg)](https://github.com/yoshi389111/github-profile-3d-contrib)
 
 ###
 
