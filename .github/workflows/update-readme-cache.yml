@@ -1,12 +1,12 @@
-name: ♻️ Actualizar cache_bust y timestamp en README
+name: ♻️ Actualizar cache_bust y timestamp aleatoriamente
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Todos los días a las 02:00 UTC
-  workflow_dispatch:      # También ejecutable manualmente
+    - cron: '0 0 * * *'  # Una vez al día a las 00:00 UTC
+  workflow_dispatch:
 
 jobs:
-  update-readme:
+  random-commits:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,30 +18,36 @@ jobs:
           git config user.name "marichu-kt"
           git config user.email "marichu-kt@users.noreply.github.com"
 
-      - name: Actualizar README.md
+      - name: Hacer entre 1 y 10 commits aleatorios
         run: |
-          FECHA=$(date -u '+%Y%m%d')
-          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
+          NUM_COMMITS=$(( (RANDOM % 10) + 1 ))
+          echo "🔁 Se harán $NUM_COMMITS commits hoy."
 
-          echo "🛠️ cache_bust = $FECHA"
-          echo "🛠️ timestamp = $TIMESTAMP"
+          for i in $(seq 1 $NUM_COMMITS); do
+            FECHA=$(date -u '+%Y%m%d')
+            TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
 
-          # 1. Actualiza la primera línea con fecha y hora UTC
-          sed -i "1s|^.*$|<!-- Última actualización: $TIMESTAMP -->|" README.md
+            echo "🛠️ Iteración $i: $TIMESTAMP"
 
-          # 2. Elimina cache_bust anteriores solo en URLs de GitHub Stats
-          sed -i -E 's|(https://github-readme-stats\.vercel\.app/api/pin/[^"]*)&cache_bust=[0-9]{8}|\1|g' README.md
+            # Actualiza el README.md
+            sed -i "1s|^.*$|<!-- Última actualización: $TIMESTAMP -->|" README.md
+            sed -i -E 's|(https://github-readme-stats\.vercel\.app/api/pin/[^"]*)&cache_bust=[0-9]{8}|\1|g' README.md
+            sed -i -E 's|(src="https://github-readme-stats\.vercel\.app/api/pin/[^"]+)(\")|\1\&cache_bust='"$FECHA"'\2|g' README.md
 
-          # 3. Añade el nuevo cache_bust solo en esas URLs
-          sed -i -E 's|(src="https://github-readme-stats\.vercel\.app/api/pin/[^"]+)(\")|\1\&cache_bust='"$FECHA"'\2|g' README.md
+            # Commit si hay cambios
+            if git diff --quiet; then
+              echo "✅ Sin cambios, no se comitea esta vez."
+            else
+              git add README.md
+              git commit -m "♻️ cache_bust $i/$NUM_COMMITS actualizado a $FECHA"
+              git push
+              echo "✅ Commit $i enviado."
+            fi
 
-      - name: Confirmar cambios si los hay
-        run: |
-          if git diff --quiet; then
-            echo "✅ No hay cambios que guardar."
-            exit 0
-          fi
-
-          git add README.md
-          git commit -m "♻️ cache_bust actualizado a $FECHA"
-          git push
+            # Dormir aleatoriamente entre 5 min y 2 horas antes del siguiente commit
+            if [ "$i" -lt "$NUM_COMMITS" ]; then
+              SLEEP_MIN=$(( (RANDOM % 115) + 5 ))  # 5 a 120 minutos
+              echo "🕒 Esperando $SLEEP_MIN minutos antes del siguiente commit..."
+              sleep "${SLEEP_MIN}m"
+            fi
+          done
