@@ -1,4 +1,4 @@
-name: ♻️ Actualizar cache_bust y timestamp aleatoriamente
+name: ♻️ Actualizar cache_bust y timestamp una vez al día
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  random-commits:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,36 +18,24 @@ jobs:
           git config user.name "marichu-kt"
           git config user.email "marichu-kt@users.noreply.github.com"
 
-      - name: Hacer entre 1 y 10 commits aleatorios
+      - name: Actualizar cache_bust y timestamp
         run: |
-          NUM_COMMITS=$(( (RANDOM % 10) + 1 ))
-          echo "🔁 Se harán $NUM_COMMITS commits hoy."
+          FECHA=$(date -u '+%Y%m%d')
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
 
-          for i in $(seq 1 $NUM_COMMITS); do
-            FECHA=$(date -u '+%Y%m%d')
-            TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
+          echo "🛠️ Actualizando README.md: $TIMESTAMP"
 
-            echo "🛠️ Iteración $i: $TIMESTAMP"
+          # Actualiza el README.md
+          sed -i "1s|^.*$|<!-- Última actualización: $TIMESTAMP -->|" README.md
+          sed -i -E 's|(https://github-readme-stats\.vercel\.app/api/pin/[^"]*)&cache_bust=[0-9]{8}|\1|g' README.md
+          sed -i -E 's|(src="https://github-readme-stats\.vercel\.app/api/pin/[^"]+)(\")|\1\&cache_bust='"$FECHA"'\2|g' README.md
 
-            # Actualiza el README.md
-            sed -i "1s|^.*$|<!-- Última actualización: $TIMESTAMP -->|" README.md
-            sed -i -E 's|(https://github-readme-stats\.vercel\.app/api/pin/[^"]*)&cache_bust=[0-9]{8}|\1|g' README.md
-            sed -i -E 's|(src="https://github-readme-stats\.vercel\.app/api/pin/[^"]+)(\")|\1\&cache_bust='"$FECHA"'\2|g' README.md
-
-            # Commit si hay cambios
-            if git diff --quiet; then
-              echo "✅ Sin cambios, no se comitea esta vez."
-            else
-              git add README.md
-              git commit -m "♻️ cache_bust $i/$NUM_COMMITS actualizado a $FECHA"
-              git push
-              echo "✅ Commit $i enviado."
-            fi
-
-            # Dormir aleatoriamente entre 5 min y 2 horas antes del siguiente commit
-            if [ "$i" -lt "$NUM_COMMITS" ]; then
-              SLEEP_MIN=$(( (RANDOM % 115) + 5 ))  # 5 a 120 minutos
-              echo "🕒 Esperando $SLEEP_MIN minutos antes del siguiente commit..."
-              sleep "${SLEEP_MIN}m"
-            fi
-          done
+          # Commit si hay cambios
+          if git diff --quiet; then
+            echo "✅ Sin cambios detectados, no se hará commit."
+          else
+            git add README.md
+            git commit -m "♻️ cache_bust actualizado a $FECHA"
+            git push
+            echo "✅ Commit enviado con cache_bust actualizado."
+          fi
