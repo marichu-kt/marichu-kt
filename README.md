@@ -120,8 +120,13 @@
       </a>
     </td>
   </tr>
-    <tr>
-    <td colspan="2" align="center" valign="middle">
+  <tr>
+    <td>
+      <a href="https://github.com/marichu-kt/PortfolioHub">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=PortfolioHub&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250830" alt="PortfolioHub">
+      </a>
+    </td>
+    <td align="center" valign="middle">
       <strong style="color:#b0e0e6; font-size: 20px;">🚧 Coming Soon!!! 🚧</strong>
     </td>
   </tr>
