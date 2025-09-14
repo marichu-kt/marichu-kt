@@ -128,7 +128,7 @@
     </td>
     <td>
       <a href="https://github.com/marichu-kt/local-network-attack-defense-simulator">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=local-network-attack-defense-simulator&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250914" alt="Local Network Attack Defense Simulator">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=local-network-attack-defense-simulator&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250814" alt="Local Network Attack Defense Simulator">
       </a>
     </td>
     </tr>
