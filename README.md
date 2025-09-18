@@ -135,7 +135,7 @@
   <tr>
     <td>
       <a href="https://github.com/marichu-kt/HAL-9000">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=HAL-9000&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250918" alt="HAL-9000">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=HAL-9000&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250919" alt="HAL-9000">
       </a>
     </td>
     <td align="center" valign="middle">
