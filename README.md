@@ -1,4 +1,4 @@
-<!-- Última actualización: 2025-09-29 01:20:11 UTC -->
+<!-- Última actualización: 2025-09-30 01:19:24 UTC -->
 
 <!-- Header SVG -->
 [![waving](https://capsule-render.vercel.app/api?type=waving&height=200&color=39FF14)](https://github.com/kyechan99/capsule-render)
@@ -63,79 +63,79 @@
   <tr>
     <td>
       <a href="https://github.com/marichu-kt/ChaCha20-Poly1305-X25519">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=ChaCha20-Poly1305-X25519&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250929" alt="ChaCha20-Poly1305-X25519">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=ChaCha20-Poly1305-X25519&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250930" alt="ChaCha20-Poly1305-X25519">
       </a>
     </td>
     <td>
       <a href="https://github.com/marichu-kt/WEBSITE-CAPTCHA">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=WEBSITE-CAPTCHA&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_bust=20250929" alt="WEBSITE-CAPTCHA">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=WEBSITE-CAPTCHA&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_bust=20250930" alt="WEBSITE-CAPTCHA">
       </a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="https://github.com/marichu-kt/Vending-Machine-CSharp">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=Vending-Machine-CSharp&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_bust=20250929" alt="Vending-Machine-CSharp">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=Vending-Machine-CSharp&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_bust=20250930" alt="Vending-Machine-CSharp">
       </a>
     </td>
     <td>
       <a href="https://github.com/marichu-kt/Slot-Machine-CSharp">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=Slot-Machine-CSharp&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_bust=20250929" alt="Slot-Machine-CSharp">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=Slot-Machine-CSharp&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_bust=20250930" alt="Slot-Machine-CSharp">
       </a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="https://github.com/marichu-kt/QR-Generator">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=QR-Generator&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_bust=20250929" alt="QR-Generator">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=QR-Generator&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_bust=20250930" alt="QR-Generator">
       </a>
     </td>
     <td>
       <a href="https://github.com/marichu-kt/GitHub-Unfollowed">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=GitHub-Unfollowed&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_bust=20250929" alt="GitHub-Unfollowed">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=GitHub-Unfollowed&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_bust=20250930" alt="GitHub-Unfollowed">
       </a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="https://github.com/marichu-kt/VoluntApp">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=VoluntApp&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250929" alt="VoluntApp">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=VoluntApp&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250930" alt="VoluntApp">
       </a>
     </td>
     <td>
       <a href="https://github.com/marichu-kt/SecureBank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=SecureBank&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_bust=20250929" alt="SecureBank">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=SecureBank&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_bust=20250930" alt="SecureBank">
       </a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="https://github.com/marichu-kt/Hercules-SETUP-Utility">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=Hercules-SETUP-Utility&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250929" alt="Hercules-SETUP-Utility">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=Hercules-SETUP-Utility&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250930" alt="Hercules-SETUP-Utility">
       </a>
     </td>
     <td>
       <a href="https://github.com/marichu-kt/ArqueoPedia-Fossils-Website">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=ArqueoPedia-Fossils-Website&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250929" alt="ArqueoPedia-Fossils-Website">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=ArqueoPedia-Fossils-Website&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250930" alt="ArqueoPedia-Fossils-Website">
       </a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="https://github.com/marichu-kt/PortfolioHub">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=PortfolioHub&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250929" alt="PortfolioHub">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=PortfolioHub&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250930" alt="PortfolioHub">
       </a>
     </td>
     <td>
       <a href="https://github.com/marichu-kt/local-network-attack-defense-simulator">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=local-network-attack-defense-simulator&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250929" alt="Local Network Attack Defense Simulator">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=local-network-attack-defense-simulator&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250930" alt="Local Network Attack Defense Simulator">
       </a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="https://github.com/marichu-kt/HAL-9000">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=HAL-9000&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250929" alt="HAL-9000">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=HAL-9000&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20250930" alt="HAL-9000">
       </a>
     </td>
     <td align="center" valign="middle">
