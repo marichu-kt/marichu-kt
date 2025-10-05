@@ -138,7 +138,14 @@
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=HAL-9000&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20251005" alt="HAL-9000">
       </a>
     </td>
-    <td align="center" valign="middle">
+    <td>
+      <a href="https://github.com/marichu-kt/SafeRansomwareLab">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=marichu-kt&repo=SafeRansomwareLab&bg_color=00001a&title_color=b0e0e6&text_color=f0f8ff&icon_color=87ceeb&border_color=333366&cache_seconds=1800&cache_bust=20251005" alt="SafeRansomwareLab">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" valign="middle">
       <strong style="color:#b0e0e6; font-size: 20px;">🚧 Coming Soon!!! 🚧</strong>
     </td>
   </tr>
