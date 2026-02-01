@@ -205,7 +205,7 @@ graph TD
         <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg" alt="BTC Logo" width="48" height="48" style="vertical-align: middle; margin-right: 6px;" />
       </a>
     </td>
-    <td><code>bc1qa83g3mxrzrw52ke0lvt4qr36qpywqykgt74f2g</code></td>
+    <td><code>bc1qlkzf4a7wp3mt5swds03r9z6ksfxrvzx665szrh</code></td>
     <td><img src="/assets/btc_qr.png" width="100" alt="BTC QR Code" /></td>
   </tr>
 </table>
