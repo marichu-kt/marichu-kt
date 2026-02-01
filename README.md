@@ -206,7 +206,7 @@ graph TD
       </a>
     </td>
     <td><code>bc1qlkzf4a7wp3mt5swds03r9z6ksfxrvzx665szrh</code></td>
-    <td><img src="/assets/btc_qr.png" width="100" alt="BTC QR Code" /></td>
+    <td><img src="/assets/btc_qr.jpeg" width="100" alt="BTC QR Code" /></td>
   </tr>
 </table>
 </div>
