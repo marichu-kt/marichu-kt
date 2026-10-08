@@ -53,7 +53,7 @@
 
 <!-- Proyectos / Repositorios -->
 <p align="center">
-  <img src="assets/projects-br.png" alt="Projects" width="60%" />
+  <img src="assets/projectsBR.png" alt="Projects" width="60%" />
 </p>
 
 >[!TIP]
@@ -192,7 +192,7 @@ graph TD
   A --> E[assets/]
   E --> F[banner.png]
   E --> I[btc_qr.png]
-  E --> J[projects-br.png]
+  E --> J[projectsBR.png]
   E --> N[line-knowledge.png]
   E --> O[radar-motivation.png]
 
